@@ -58,4 +58,9 @@ frutas.push('Manga');
 var pos = frutas.indexOf('Banana');
 // 1
 
+//{Procurar um indece pela posição }
+
+var procurar = frutas.indexOf('orange')
+console.log('indexof : orange ocupa a ?',procurar);
+
 
