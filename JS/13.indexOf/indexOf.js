@@ -30,3 +30,7 @@ itens.splice(0 , itens.length)
 console.log("removendo todos os itens " , itens )
 
 
+
+
+
+
