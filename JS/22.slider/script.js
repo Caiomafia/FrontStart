@@ -23,4 +23,26 @@ function onNextClick(){
 }
 
 
+function autoScrool(){
+    setInterval(() =>{
+
+const sliderwidth = sliderEl.offsetWidth;
+
+const numberOfImages = sliderEl.childElementCount; 
+
+console.log(sliderEl)
+console.log(numberOfImages)
+
+//se for a ultima => volta pro 0 
+console.log(sliderEl.scrollLeft/sliderwidth)
+
+// senao
+    sliderEl.scrollLeft += sliderwidth
+
+    } , 6000)
+
+}
+
+
+autoScrool()
  
