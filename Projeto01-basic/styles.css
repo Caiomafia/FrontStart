@@ -1,0 +1,17 @@
+h1{
+    font-family: 'Inter'  sans-serif;
+}
+
+
+p,a { 
+    font-family: 'Open sans ' sans-serif;
+}
+
+
+span , a{ color: orange;}
+
+
+footer{
+    display: flex;
+    border-top:2px solid  ;
+}
