@@ -79,12 +79,19 @@ p{
 
 
 .btn{
-     width: 187px;
-     height:56px;
-    padding: 14px 32px 15px;
+     text-transform: uppercase;
+     font-family: 'Inter' sans-serif;
 
-     border: none;
+     background-color: rgb(8, 180, 8);
 
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border-radius: 10px;
+
+     padding: 15px;
 
 
 }
