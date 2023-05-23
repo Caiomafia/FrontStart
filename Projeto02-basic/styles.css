@@ -84,13 +84,17 @@ p{
 
      background-color: rgb(8, 180, 8);
 
+    width: 187px;
+    height: 57px;
+
+
     border: 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 15px;
     
     border-radius: 10px;
-
      padding: 15px;
 
 
@@ -98,7 +102,10 @@ p{
 
 
 
-
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(32, 80, 32);
+}
 
 footer{
     text-align: center;
