@@ -26,7 +26,7 @@
 
 <div class="container">
     
-<form action="">
+<form id="my-form">
 
 
 
@@ -36,7 +36,8 @@
 <div class="input">
     <label for="event-title">Título do evento  <span> ( mínimo de 8 caracteres)</span>
     </label>
-    <input type="text" id="event-title">
+    <input type="text" id="event-title"  
+    minlength="8">
 </div>
 
 <div class="input">
@@ -91,11 +92,7 @@
        
     </div>
 
-<div class="checkbox"> 
 
- <input type="checkbox" id="event-private">
-  <label for="event-private">Evento privado</label>
-</div>
 
 </fieldset>
 
@@ -126,10 +123,14 @@
 
 
 
-
-
 </form>
+<footer>
+    <input type="submit" value="Salvar Evento
+    " class="button" form="my-form">
+</footer>
 </div>
+
+
 
 
 
