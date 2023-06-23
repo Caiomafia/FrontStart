@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 header{
     display: flex;
     flex-direction: column;
@@ -11,3 +17,95 @@ flex-direction: column;
 margin: 0 auto;
 align-items: center;
 }
+
+:root{
+    --ff-header:'Epilogue' , sans-serif;
+    --ff-texting:'Open sans' , sans-serif;
+
+    --bg--color:#28293E;
+    --ff-color:white;
+
+        --hue:250;
+    --cc--secondry-dark :hsl(var(--hue) , 100% , 11% , 1);
+
+
+
+}
+
+
+
+
+body{
+font-family: var(--ff-texting);
+background-color: var(--bg--color);
+color: white;
+}
+
+
+
+header{font-family: var(--ff-header);}
+
+header p { text-transform: uppercase; margin:  10px 0  ;}
+
+
+.page{
+    max-width: 33rem;
+    margin: 0 auto;
+}
+
+.card{
+    position: relative;
+    font-family: var(--ff-header);
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.card img { 
+    height: 30rem;
+    object-fit: cover;
+}
+
+
+.card h2{ 
+    position: absolute;
+    bottom: 5.2rem;
+    left: 2.8rem;
+
+   display: flex;
+   flex-direction: column;
+   font-size: var(--ff-header);
+  gap: 2rem;
+
+}
+
+
+
+.card h2 span {
+    border-radius: 2rem;
+    background-color:white;
+    color:var(--cc--secondry-dark);
+    font-size: 62%;
+    font-weight: 400;
+    width: fit-content;
+
+height: 3.6rem;
+padding: 0 1.6rem;
+
+    display: flex;
+    align-items: center;
+
+}
+
+
+.card h2{
+    font-weight: 800;
+ 
+}
+
+
+    
+
+
