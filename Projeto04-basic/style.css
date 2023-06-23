@@ -8,29 +8,19 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 2rem 0 ;
 }
 
-.cardscontainer{
-
-display: flex;
-flex-direction: column;
-margin: 0 auto;
-align-items: center;
-}
 
 :root{
     --ff-header:'Epilogue' , sans-serif;
     --ff-texting:'Open sans' , sans-serif;
-
     --bg--color:#28293E;
     --ff-color:white;
-
         --hue:250;
     --cc--secondry-dark :hsl(var(--hue) , 100% , 11% , 1);
-
-
-
 }
+
 
 
 
@@ -51,18 +41,23 @@ header p { text-transform: uppercase; margin:  10px 0  ;}
 .page{
     max-width: 33rem;
     margin: 0 auto;
+    display: grid;
+    gap: 3.5rem;
+
 }
 
 
 
-img{
-    width: 100%;
-    height: auto;
-}
+
 
 .card img { 
     height: 30rem;
     object-fit: cover;
+    width: 100%;
+    border-radius: 6px;
+
+transition:all 200ms;
+
 }
 
 .card{
@@ -91,8 +86,8 @@ img{
     width: fit-content;
     font-size: 62.2%;
 
-height: 3.6rem;
-padding: 0 1.6rem;
+height: 3rem;
+padding: 0 1rem;
 
     display: flex;
     align-items: center;
@@ -106,7 +101,48 @@ padding: 0 1.6rem;
  
 }
 
+.card img:hover{
+  transform: scale(1.1);
+  opacity: 0.2;
+}
 
-    
+/*Animações*/
+
+header{
+    /*chamando o animation  e sua duração */
+    animation-name: topdown;
+    animation-duration: 700ms;
+    animation-delay: 200ms;
+
+}
+
+main{
+    animation: downtop  700ms 350ms reverse backwards;
+
+}
+
+
+
+@keyframes topdown{
+    0%{
+        /*começo */
+        opacity:0 ;
+        /*valor negativo para vim de cima para baixo */
+        transform:translateY(-15px) ;
+        
+    }
+/*Fim voltar ao padrão*/
+    100%{
+ opacity: 1;
+ transform: translateY(0);
+    }
+}
+
+@keyframes downtop{
+    100%{
+     opacity: 0;
+     transform: translateY(15px);
+    }
+}
 
 
