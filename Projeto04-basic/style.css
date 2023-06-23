@@ -117,7 +117,7 @@ header{
 }
 
 main{
-    animation: downtop  700ms 350ms reverse backwards;
+    animation: downtop  700ms  backwards;
 
 }
 
