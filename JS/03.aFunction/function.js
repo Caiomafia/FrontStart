@@ -58,3 +58,50 @@ console.log(copo)//suco
 //function scope
 
 let subject
+
+
+
+
+
+
+
+
+
+//callback  isso e apenas uma função dentro de outra função 
+
+
+
+function chamar(name){
+    console.log('Dentro de chamar ')
+    name();
+    console.log('Depois de callback ')
+}
+
+
+
+chamar(
+
+()=>{ console.log('eu sou a callback')}
+
+)
+
+
+
+
+/* function constructor 
+Uma função construtora é um conceito importante em JavaScript, usado para criar objetos.
+ Ela é utilizada como um molde para criar múltiplos objetos com as mesmas propriedades e métodos.
+
+*/
+
+function Pessoa(nome, idade) {
+  this.nomex = nome;
+  this.idadey = idade;
+}
+
+// Criando objetos usando a função construtora
+const pessoa1 = new Pessoa("João", 25);
+const pessoa2 = new Pessoa("Maria", 30);
+
+console.log(pessoa1.nome); // Saída: João
+console.log(pessoa2.idade); // Saída: 30
