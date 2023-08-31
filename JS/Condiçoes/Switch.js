@@ -12,8 +12,11 @@ switch(operador){
         case '-':
 
         result number - numberTwo
-
         break
+
+        default:
+            break
+ 
 }
 
 return result
