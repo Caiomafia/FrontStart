@@ -72,13 +72,43 @@ calcular()
 //jogo adivinhação
 
 
+//Fazer um jogo de adivinhaçao de 0 a 10 , gerar esses numeros e fazer com que retorno quantas tentavias e retorno ao cliente.
 
-let tentativas = 0;
+
 let result = prompt("tenta acertar o numero de 0 a 10 ?");
 
-let gerador = Math.round(Math.random() * 10 )
+const randomNumber = Math.round(Math.random() * 10 )
 
-const match = Number(result) == gerador; 
+const match = Number(result) == randomNumber; 
 
 
-console.log()
+let xAttemts =  1;
+
+while(Number(result) != randomNumber ){
+    result = prompt(' Erro , Tente novamente'); 
+    xAttemts ++ 
+}
+
+
+alert(`Parabens  o número que pensei foi ${randomNumber} é você adivinhou em ${xAttemts}  tentativas `)
+
+/* 
+Aprendemos sobre 
+controle de fluxo da aplicação 
+estrutura de repetição 
+while 
+gerar numeros aletorios 
+tipo de dados (NAN)
+-não e um numero 
+Tipo de erro :SyntanxError
+- erro de sintaxe ; erro de escrita de codigo 
+[]Math.round(aredonda para cima )]Match.rondom(gera um numero )  Match 
+- pacote com funcionalidades matematicas ]
+[]console . [
+    - pacote com funcionalidades para console de devtools(browser)
+]
+
+
+
+
+*/
