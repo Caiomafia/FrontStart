@@ -1,1 +1,4 @@
-let numberA = Math.ceil(Math.random() * 100);
+function tentar(event){
+    event.preventDefault()
+ console.log(event)
+}
