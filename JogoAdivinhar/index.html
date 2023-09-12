@@ -11,22 +11,23 @@
 <body>
     
 <main>
-<div class="screen1"> 
-<h2>Jogo da adivinhação</h2>
-<p>Adivinhe um número de 0 a 10 </p>
+        <div class="screen1 "> 
+            <h2>Jogo da adivinhação</h2>
+            <p>Adivinhe um número de 0 a 10 </p>
 
 
-        <form action="">
+        <form>
             <input type="number" id="inputNumber">
-    <button onclick="Tentarbtn(event)">Tentar</button>
+            <button onclick="Tentarbtn(event)">Tentar</button>
         </form>
 
-        <div class="screen2 hide ">
-        <h2> </h2> 
-        <button >Jogar novamente</button>
-             </div>
+        
 
 </div>
+             <div class="screen2 hide ">
+                <h2> </h2> 
+                <button  onclick="novo()">Jogar novamente</button>
+              </div>
 </main>
 
     <script src="script.js"></script>
