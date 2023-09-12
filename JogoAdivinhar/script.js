@@ -1,10 +1,6 @@
-function tentar(event){
+function oi(event){
     event.preventDefault()
- 
+ console.log("ola")
 }
-
-const inputT = document.querySelector('#inputT')
-
-console.log(inputT.value)
 
 
