@@ -18,7 +18,7 @@ if (Number(inputNumber.value) == randomNumber){
     screen1.classList.add("hide")
     screen2.classList.remove("hide")
 
-screen2("h2").innerText = "Você acertou em "+xAttempts + " top dms ";
+document.querySelector(".screen2 h2").innerText = "Você acertou em "+xAttempts + " top dms ";
 
 }
 inputNumber.innerText = "";
@@ -35,7 +35,7 @@ const reset = document.querySelector("#reset");
 
 
 //call back
-
+reset,
 
 
 novoBtn.addEventListener('click' , function(event){
