@@ -4,6 +4,7 @@ let xAttempts = 1 ;
 alert(randomNumber);
 
 
+
 const screen1 = document.querySelector(".screen1");
 const screen2 = document.querySelector(".screen2");
 
@@ -17,11 +18,32 @@ if (Number(inputNumber.value) == randomNumber){
     screen1.classList.add("hide")
     screen2.classList.remove("hide")
 
-document.querySelector(".screen2 h2").innerText = "Você acertou em "+xAttempts + " top dms ";
+screen2("h2").innerText = "Você acertou em "+xAttempts + " top dms ";
 
 }
+inputNumber.innerText = "";
 xAttempts++
 }
 
 
 
+//Eventos 
+
+
+const novoBtn = document.querySelector(".Novobtn");
+const reset = document.querySelector("#reset");
+
+
+//call back
+
+
+
+novoBtn.addEventListener('click' , function(event){
+
+    event.preventDefault
+    screen1.classList.remove("hide")
+    screen2.classList.add("hide")
+  inputNumber.value = ""
+  
+
+})
