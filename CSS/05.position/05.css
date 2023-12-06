@@ -1,0 +1,45 @@
+
+
+
+/*
+Static:
+
+position: static;
+Este é o valor padrão. Elementos com posição estática são posicionados no fluxo normal do documento, o que significa que eles são exibidos na ordem em que aparecem no código, um abaixo do outro.
+Relative:
+
+position: relative;
+Elementos com posição relativa são posicionados em relação à sua posição original no layout. Se você usar propriedades como top, right, bottom ou left, elas serão ajustadas em relação à posição original do elemento.
+Absolute:
+
+position: absolute;
+Elementos com posição absoluta são retirados do fluxo normal do documento e posicionados em relação ao elemento pai mais próximo que possui uma posição diferente de static. Se não houver tal elemento pai, ele será posicionado em relação ao elemento <html>.
+Fixed:
+
+position: fixed;
+Elementos com posição fixa são retirados do fluxo normal do documento e são posicionados em relação à janela de visualização (a área visível na tela). Eles permanecem fixos enquanto você rola a página.
+Sticky:
+
+position: sticky;
+Um elemento com posição sticky é um pouco como uma combinação de relativo e fixo. Ele é tratado como relativo até que ele atinja um determinado ponto durante o rolar da página, momento em que se torna fixo.
+
+ 
+*/
+
+.elemento {
+    position: static; /* ou relative, absolute, fixed, sticky */
+    top: 10px;
+    right: 20px;
+    bottom: 30px;
+    left: 40px;
+  }
+
+
+
+  .box{
+background-color: red;
+width: 400px;
+height: 400px;
+
+
+  }
