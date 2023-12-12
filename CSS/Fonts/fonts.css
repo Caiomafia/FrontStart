@@ -3,7 +3,41 @@
 
 Font-family :
 
+font-family: Define a família de fontes para um elemento. Você pode fornecer uma lista de fontes, separadas por vírgulas, para indicar as preferências. O navegador tentará usar a primeira fonte da lista e, se não estiver disponível, passará para a próxima.
 
+Exemplo:
+
+
+font-family: "Arial", sans-serif;
+Neste exemplo, o navegador tentará usar a fonte "Arial". Se não estiver disponível, ele usará uma fonte sans-serif genérica.
+
+
+
+font-weight: Define a espessura da fonte. Pode ser usado com valores como normal, bold, bolder, lighter ou um valor numérico.
+
+Exemplo:
+
+
+font-weight: bold;
+font-style: Define o estilo da fonte, como normal ou italic.
+
+Exemplo:
+
+
+font-style: italic;
+font-size: Define o tamanho da fonte. Pode ser especificado em unidades como pixels, ems, rems, porcentagens, entre outros.
+
+Exemplo:
+
+
+font-size: 16px;
+line-height: Define a altura da linha, que afeta o espaçamento entre as linhas de texto.
+
+Exemplo:
+
+
+line-height: 1.5;
+Essas são algumas propriedades comumente usadas ao estilizar textos em CSS. O font-family é especialmente útil para personalizar a aparência do texto, permitindo que você escolha uma fonte específica para o seu design.
 
 
 
