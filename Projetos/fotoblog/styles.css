@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@700&family=Kalnia:wght@200;300&family=Montserrat:wght@400;700&family=Mulish:wght@400;600;700&family=Poppins:ital,wght@0,300;1,100&family=Space+Grotesk:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+
+--font--size: 62.5%;
+--color-font:#F5F5F5;
+--color-white:#fffff;
+--color-base:#202024;
+
+--font-title: 'Mulish' sans-serif;
+
+}
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    padding: 1.6rem 3.2rem;
+    width: min(112rem , 100%);
+}
+
+main{
+    background-color:  #F5F5F5;
+    display: flex;
+    width: 100vw;
+    
+
+
+}
+
+#cards{
+    width: 350px;
+    height: 194px;
+
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+
+    border-radius: 1rem;
+}
+
+
+#cards h1 {
+    font-size: 18.909px;
+}
+
+/*header*/
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    
+}
