@@ -1,0 +1,36 @@
+.app{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: ;
+}
+
+
+.filhos{
+    border: 1px solid red;
+}
+
+
+/*
+ isso informar qual o valor cada div vai ocupar e sua posições 
+ grid-template-columns: 1fr 2fr 1fr ; 
+
+
+
+Informar que 6 intes iram entrar e deve deixar em 1 fração
+grid-template-columns: repeat(6,1fr)
+
+- tudo que faltar ou sobrar de 6 fica na proxima linha 
+
+
+
+[Container pai ]
+
+
+display:grid
+ grid-template-columns: 1fr 2fr 1fr ; 
+
+
+
+
+
+*/
