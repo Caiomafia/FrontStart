@@ -1,8 +1,7 @@
 const randomNumber = Math.round(Math.random() * 10)
 let xAttempts = 1 ; 
 
-alert(randomNumber);
-
+alert(randomNumber)
 
 
 const screen1 = document.querySelector(".screen1");
@@ -14,7 +13,7 @@ event.preventDefault();
 
 const inputNumber = document.querySelector("#inputNumber")
 
-if (Number(inputNumber.value) == randomNumber){  
+if (Number(inputNumber.value) === randomNumber){  
     screen1.classList.add("hide")
     screen2.classList.remove("hide")
 
