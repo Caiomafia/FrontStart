@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: darkblue;
+    font-size: 1rem;
+}
+
+
+.container{
+height: 100vh;
+display: grid;
+place-content: center;
+}
+
+
+.home{
+    padding: 4.8rem  6.4rem   6.4rem ;
+ background-color: white;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+
+
+ width: 450px;
+ height: 450px;
+ border-radius: 10%;
+}
+
+
+input{
+    text-align: center;
+    width: 70%;
+    height: 2.5rem;
+    margin: 1rem;
+    border-radius: 10%;
+}
+
+
+
+.btn{
+    width: 50%;
+    height: 2rem;
+}
+
