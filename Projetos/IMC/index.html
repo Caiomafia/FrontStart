@@ -15,14 +15,35 @@
 
 <main class="container">
     <div class="home">
-        <h1> Cálculo de IMC</h1>
-        <p>Peso(kg)</p>
-        <input type="number" placeholder="exemplo:50">
-           <p>Altura(m)</p>
-           <input type="number" placeholder="exemplo:1.80">
-           <button onclick="calcular()" class="btn">Calcular</button>
+        <form action="">
+        <h1 class="title"> Cálculo de IMC</h1>
+        <label for="weight">Peso(kg)</label>
+
+        <input type="number" 
+        placeholder="exemplo:50"
+        id="weight"  >
+       
+           <label for="height">Altura(m)</label>
+           <input type="number" placeholder="exemplo:1.80" id="height">
+           <button onclick="calcular(event)" class="btn">Calcular</button>
+        </form>
+    </div>
+    
+    
+    
+    
+    
+    <div class="modal-wrapper">
+            <div class="modal-card">
+                <button>x</button>
+                <h2 class="title">Seu IMC e </h2>
+                
+            </div>
     </div>
 </main>
+
+
+
 
 
 
