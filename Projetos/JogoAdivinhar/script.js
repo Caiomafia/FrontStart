@@ -39,3 +39,8 @@ function toggleScreen(){
 }
 
 alert(randomNumber)
+
+
+function reset(){
+  alert("Vamos jogar novamente ! ")
+}
