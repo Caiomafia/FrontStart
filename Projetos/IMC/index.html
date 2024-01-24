@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>IMC</title>
     <link rel="stylesheet" href="style.css">
     <script src="main.js" defer></script>
 </head>
@@ -33,16 +33,18 @@
     
     
     
-    <div class="modal-wrapper">
-            <div class="modal-card">
-                <button>x</button>
-                <h2 class="title">Seu IMC e </h2>
-                
-            </div>
-    </div>
+   
 </main>
 
 
+ <!-- Modal -->
+ <div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="fecharModal()">&times;</span>
+        <h2 class="title" id="result">Seu IMC e 28</h2>
+        <button class="btnNovamente" onclick="reset()">Novamente</button>
+    </div>
+</div>
 
 
 
